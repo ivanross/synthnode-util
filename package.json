@@ -1,5 +1,6 @@
 {
-  "name": "@synthnode/node-player",
+  "name": "@ivanross/node-player",
+  "private": false,
   "version": "0.0.1",
   "description": "",
   "main": "index.js",

@@ -1,0 +1,15 @@
+{
+  "name": "@synthnode/node-player",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Rossi <ivanross.me@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "audio-generator": "^2.1.2",
+    "audio-speaker": "^1.5.0"
+  }
+}

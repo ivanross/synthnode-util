@@ -7,3 +7,10 @@ module.exports.mono = function(osc) {
   }
   return new Generator(aux, { duration: Infinity }).pipe(new Speaker());
 };
+
+module.exports.stereo = function(left, right) {
+  function aux(t) {
+    return [left.tf(t), right.tf(t)];
+  }
+  return new Generator(aux, { duration: Infinity }).pipe(new Speaker());
+};

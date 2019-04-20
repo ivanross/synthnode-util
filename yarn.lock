@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/lodash@^4.14.121":
+  version "4.14.123"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.123.tgz#39be5d211478c8dd3bdae98ee75bb7efe4abfe4d"
+  integrity sha512-pQvPkc4Nltyx7G1Ww45OjVqUsJP4UsZm+GWJpigXgkikZqJgRm4c48g027o6tdgubWHwFRF15iFd+Y4Pmqv6+Q==
+
 atob-lite@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/atob-lite/-/atob-lite-1.0.0.tgz#b88dca6006922b962094f7556826bab31c4a296b"
@@ -192,6 +197,11 @@ isarray@~1.0.0:
   resolved "https://registry.yarnpkg.com/isarray/-/isarray-1.0.0.tgz#bb935d48582cba168c06834957a54a3e07124f11"
   integrity sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
 
+lodash@^4.17.11:
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
+  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -278,6 +288,14 @@ string_decoder@~1.1.1:
   integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
   dependencies:
     safe-buffer "~5.1.0"
+
+synthnode@^0.4.2:
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/synthnode/-/synthnode-0.4.2.tgz#710ca3a3ab2bea3fe6cffe387d983a8807f740b1"
+  integrity sha512-j4ir25GNMSsYRZ8tGLqMNrPtL0LtiHJQ7vExmlppKl+Jl6FG/JyDp5p5Td8uG/4I+jcn13CyR/F8TCYSkkR9Uw==
+  dependencies:
+    "@types/lodash" "^4.14.121"
+    lodash "^4.17.11"
 
 to-array-buffer@^1.0.0:
   version "1.2.4"

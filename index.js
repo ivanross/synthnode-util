@@ -1,7 +1,7 @@
 const Generator = require("audio-generator");
 const Speaker = require("audio-speaker");
 
-module.export = function play(osc) {
+module.exports = function play(osc) {
   function aux(t) {
     return [osc.tf(t)];
   }

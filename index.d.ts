@@ -1,4 +1,12 @@
 import { AudioObject } from "synthnode";
 
-export function mono(osc: AudioObject): never;
-export function stereo(left: AudioObject, right: AudioObject): never;
+type NodePlayerOptions = {
+  duration?: number;
+};
+
+export function mono(osc: AudioObject, options?: NodePlayerOptions): never;
+export function stereo(
+  left: AudioObject,
+  right: AudioObject,
+  options?: NodePlayerOptions
+): never;

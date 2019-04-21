@@ -7,9 +7,16 @@
   "types": "index.d.ts",
   "author": "Ivan Rossi <ivanross.me@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha test.js"
+  },
   "dependencies": {
     "audio-generator": "^2.1.2",
     "audio-speaker": "^1.5.0",
     "synthnode": "^0.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
   }
 }
